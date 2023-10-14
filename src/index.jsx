@@ -4,7 +4,7 @@ import App from './app';
 import './styles/reset.scss';
 
 const container = document.getElementById('root');
-const root = createRoot(container as HTMLElement);
+const root = createRoot(container);
 root.render(
   <App />
 );
