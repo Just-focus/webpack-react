@@ -1,7 +1,5 @@
 // 删除babel
 module.exports = function ({ types: t }) {
-  console.log('types', t);
-
   return {
     visitor: {
       Identifier(path) {

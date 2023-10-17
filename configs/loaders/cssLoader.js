@@ -8,7 +8,6 @@
 // meta -> 用于提供有关源文件的元信息
 module.exports = function (source) {
   // 使用正则表达式将 "old-class" 替换为 "new-class"
-  console.log('source', source);
   // const modifiedSource = source.replace(/\.old-class/g, '.new-class');
 
   return source;

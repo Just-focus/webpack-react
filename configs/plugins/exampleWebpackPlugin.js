@@ -13,7 +13,6 @@ class ExampleWebpackPlugin {
           '这里表示了资源的单次构建的 `compilation` 对象：',
           compilation
         );
-
         // 用 webpack 提供的插件 API 处理构建过程
         // compilation.addModule(/* ... */);
         // 功能完成后调用 webpack 提供的回调
